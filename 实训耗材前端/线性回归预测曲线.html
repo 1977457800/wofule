@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+<script>
+function myFunction(){
+	document.getElementById("demo").innerHTML="我的第一个 JavaScript 函数";
+}
+</script>
+</head>
+<body>
+<img src="../图片/采购入库信息分析图片/预测曲线.png" alt="路径不对">
+<h1>这是2019年每个月举办活动的花销和拟合线</h1>
+<form name="one">
+    <input type="text" name="name",value="8888">
+</form>
+<button type="button" onclick="myFunction()">输入月份,点击预测2020年</button>
+<output id="look"></output>
+<script>
+    function myFunction(){
+        document.getElementById('look').innerHTML=(parseInt(document.one.name.value)+12)*15612.2060025873+43194.87089262629
+    }
+
+</script>
+</body>
+</html>
+
+

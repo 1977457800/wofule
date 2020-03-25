@@ -1,0 +1,39 @@
+ .nav{
+width: 100%;
+ height: 55px;
+align-items: center;
+ display: flex;
+ text-align: center;
+ position: fixed;
+ bottom: 0;
+ border-top: 1px solid #cccccc;
+ }
+ .weui-tabbar__item a{
+   width: 100%;
+   height:100%;
+   flex: 1;
+ }
+.weui-tabbar__item {
+  flex: 1;
+ text-decoration: none;
+ }
+ a{
+   text-decoration: none;
+ }
+ .tabWrap {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+p{
+    color: #cccccc;
+
+    font-size: 14px;
+}
+.active p{
+  color: #1296DB;
+}
+.weui-tabbar__icon{
+  width: 25px;
+}
